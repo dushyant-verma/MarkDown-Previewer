@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  #app {
+    width: 80%;
+    max-width: 800px;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  
+  #editor {
+    width: 50%;
+    height: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    resize: none;
+  }
+  
+  #preview {
+    width: 50%;
+    height: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow-y: auto;
+    background-color: #fafafa;
+  }
+  
+  .preview h1, .preview h2, .preview h3, .preview h4, .preview h5, .preview h6 {
+    margin: 10px 0;
+  }
+  
+  .preview p {
+    margin: 10px 0;
+  }
+  
+  .preview code {
+    background-color: #eee;
+    padding: 2px 4px;
+    border-radius: 4px;
+  }
+  
